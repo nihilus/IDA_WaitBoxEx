@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WaitBoxEx.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyQProgressDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyQProgressDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WinTaskProgress.cpp">
+      <Filter>Taskbar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3fb17cc4-f550-430e-bab8-a753d1693789}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ac36ff6d-414b-4a61-8720-c3260abf7659}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+      <Extensions>cpp;moc</Extensions>
+    </Filter>
+    <Filter Include="Taskbar">
+      <UniqueIdentifier>{684bc266-3dd5-4a5b-aa5b-933f723de5de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="WaitBoxEx.h" />
+    <CustomBuild Include="MyQProgressDialog.h" />
+    <CustomBuild Include="WinTaskProgress.h">
+      <Filter>Taskbar</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\IDA_WaitBoxEx.txt" />
+  </ItemGroup>
+</Project>
