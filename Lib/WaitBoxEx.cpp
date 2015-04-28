@@ -34,7 +34,7 @@ static const int  DAILOG_WIDTH = 250, DAILOG_HEIGHT = 105;
 static const int  BUTTON_WIDTH = 90, BUTTON_HEIGHT = 25;
 static const char FONT[] = { "Tahoma" };
 static const UINT SHOW_DELAY = (2 * 1000);
-static const UINT TARGET_UPDATE_MS = 90;
+static const UINT TARGET_UPDATE_MS = 100;
 #ifndef MATERIAL_DESIGN_STYLE
 static const LPCSTR CANCEL = "Cancel";
 #else
@@ -143,7 +143,7 @@ m_hMouseHook(NULL), m_hWinHook(NULL), m_hTimerQueue(NULL), m_hUpdateTimer(NULL)
 
     // Start update interval timer    
     if (m_hTimerQueue = CreateTimerQueue())
-        CreateTimerQueueTimer(&m_hUpdateTimer, m_hTimerQueue, (WAITORTIMERCALLBACK) timerTick, NULL, TARGET_UPDATE_MS, 10, 0);
+        CreateTimerQueueTimer(&m_hUpdateTimer, m_hTimerQueue, (WAITORTIMERCALLBACK)timerTick, NULL, TARGET_UPDATE_MS, TARGET_UPDATE_MS, 0);
     _ASSERT(m_hUpdateTimer != NULL);
 }
 

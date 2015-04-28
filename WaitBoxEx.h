@@ -1,7 +1,7 @@
 
 // WaitBoxEx: Custom IDA Pro wait box
 // By Sirmabus
-// Version 1.0
+// Version 1.1
 // http://www.macromonkey.com
 // License: Qt 4.8.4 LGPL
 #pragma once

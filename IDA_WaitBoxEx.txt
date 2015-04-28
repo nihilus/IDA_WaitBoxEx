@@ -1,6 +1,6 @@
 
 IDA WaitBoxEx:
-Version 1.0, March 2015
+Version 1.1, April 2015
 By Sirmabus
 A full featured IDA Pro wait box replacement with progress bar and 
 customization options.

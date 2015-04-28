@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'MyQProgressDialog.h'
 **
-** Created: Thu Mar 5 20:27:52 2015
+** Created: Mon Apr 27 21:39:14 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
